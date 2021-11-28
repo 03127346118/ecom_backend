@@ -4,11 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js",
+    "start": "node server.js",
+    "server": "nodemon server.js",
     "client": "npm start --prefix frontend",
     "dev": " concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node backend/seeder.js"
+    
+    "data:import": "node seeder.js"
   },
   "keywords": [],
   "author": "",

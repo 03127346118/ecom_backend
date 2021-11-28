@@ -1,4 +1,4 @@
-const MongoUrl = "mongodb+srv://Usama123:usama123@cluster0.9vtom.mongodb.net/shop?retryWrites=true&w=majority"
+const MongoUrl = "mongodb+srv://Jutt1234:Usama1234@cluster0.9vtom.mongodb.net/shop?retryWrites=true&w=majority"
 const mongoose = require('mongoose');
  
 
